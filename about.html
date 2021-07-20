@@ -15,154 +15,150 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light nav1">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="/flowingemotions/">FlowingEmotions</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="/flowingemotions/">Home</a>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Men<span class="badge bg-success">New</span>
-                            <!-- change color primary danger warning -->
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Father</a></li>
-                            <li><a class="dropdown-item" href="#">Son</a></li>
-                            <li><a class="dropdown-item" href="#">BOyfriend</a></li>
-                            <li><a class="dropdown-item" href="#">male friend</a></li>
-                            <li><a class="dropdown-item" href="#">Brother<span class="badge bg-dark">New</span></a></li>
-                            <li><a class="dropdown-item" href="#">Common Men Quotes</a></li>
-                            <li><a class="dropdown-item" href="#">Grand Father</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Write for us</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Women
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">mother</a></li>
-                            <li><a class="dropdown-item" href="#">daughter</a></li>
-                            <li><a class="dropdown-item" href="#">girlfriend</a></li>
-                            <li><a class="dropdown-item" href="#">female friend</a></li>
-                            <li><a class="dropdown-item" href="#">sister</a></li>
-                            <li><a class="dropdown-item" href="#">Grand Mohter</a></li>
-                            <li><a class="dropdown-item" href="#">Common Women Quotes</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Write for us</a></li>
-
-                        </ul>
-                    </li>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                </ul>
-            </div>
-            <div class="nav2" id="navbarSupportedContent2">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link " href="/flowingemotions/about.html">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/flowingemotions/contact.html">Contact Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="/flowingemotions/blog.html">Blog</a>
-                    </li>
-                </ul>
-
-            </div>
-            <div class="mx-2">
-                <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
-                <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#signupModal">SignUp</button>
-            </div>
-        </div>
-    </nav>
-    <!-- LOGIN MODAL -->
-  <!-- Modal -->
-  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="loginModalLabel">Login to FE</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-            <form>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-primary">login</button>
-              </form>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- SIGNUP MODAL  -->
-  <!-- Modal -->
-  <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="signupModalLabel">SignUp to FE</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-            <form>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3">
-                    <label for="cexampleInputPassword1" class="form-label">Confirm Password</label>
-                    <input type="password" class="form-control" id="cexampleInputPassword1">
-                  </div>
+  <nav class="navbar navbar-expand-lg navbar-light nav1">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/flowingemotions/">FlowingEmotions</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="/flowingemotions/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="/flowingemotions/about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/flowingemotions/contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/flowingemotions/blog.html">Blog</a>
+              </li>
                 
-                <button type="submit" class="btn btn-primary">create account</button>
-              </form>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Men<span class="badge bg-success">New</span>
+                        <!-- change color primary danger warning -->
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Father</a></li>
+                        <li><a class="dropdown-item" href="#">Son</a></li>
+                        <li><a class="dropdown-item" href="#">BOyfriend</a></li>
+                        <li><a class="dropdown-item" href="#">male friend</a></li>
+                        <li><a class="dropdown-item" href="#">Brother<span class="badge bg-dark">New</span></a></li>
+                        <li><a class="dropdown-item" href="#">Common Men Quotes</a></li>
+                        <li><a class="dropdown-item" href="#">Grand Father</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Write for us</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Women
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">mother</a></li>
+                        <li><a class="dropdown-item" href="#">daughter</a></li>
+                        <li><a class="dropdown-item" href="#">girlfriend</a></li>
+                        <li><a class="dropdown-item" href="#">female friend</a></li>
+                        <li><a class="dropdown-item" href="#">sister</a></li>
+                        <li><a class="dropdown-item" href="#">Grand Mohter</a></li>
+                        <li><a class="dropdown-item" href="#">Common Women Quotes</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Write for us</a></li>
+
+                    </ul>
+                </li>
+                
+            </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+        <div class="mx-2 ">
+            <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+            <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#signupModal">SignUp</button>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        </div>
-      </div>
+    </div>
+</nav>
+<!-- LOGIN MODAL -->
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="loginModalLabel">Login to FE</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">login</button>
+          </form>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
     </div>
   </div>
+</div>
+</div>
+
+<!-- SIGNUP MODAL  -->
+<!-- Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="signupModalLabel">SignUp to FE</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+                <label for="cexampleInputPassword1" class="form-label">Confirm Password</label>
+                <input type="password" class="form-control" id="cexampleInputPassword1">
+              </div>
+            
+            <button type="submit" class="btn btn-primary">create account</button>
+          </form>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+    </div>
+  </div>
+</div>
+</div>
+
     <div class="container my-4" style="width:60vw">
         <h2>About Us</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias assumenda asperiores numquam neque
